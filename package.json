@@ -104,7 +104,7 @@
   "scripts": {
     "build": "node scripts/build.js --force",
     "coverage": "node scripts/coverage.js",
-    "install": "node scripts/install.js",
+    "install": "echo \"This version was precompiled and does not require node-gyp\"",
     "lint": "eslint bin/node-sass lib scripts test",
     "postinstall": "node scripts/build.js",
     "prepublish": "not-in-install && node scripts/prepublish.js || in-install",
